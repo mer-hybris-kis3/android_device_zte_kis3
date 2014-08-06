@@ -101,6 +101,7 @@ service time_daemon /system/bin/time_daemon
     class late_start
     user root
     group root
+    disabled
 
 service mpdecision /system/bin/mpdecision --avg_comp
     class main
